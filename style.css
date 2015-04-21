@@ -1,17 +1,8 @@
 body{
 	margin: 0 auto!important;
 }
-.cabecera-formato-items{
-	width: 700px;
-	height: 30px;
-	margin: 2px 0 ;	
-}
-.boton{
-	width: 200px;
-	height:30px;
-	border-radius: 10px;
-}
-#iten1 , #iten2 , #iten3 , #iten4 , #iten5 , #iten6{
+
+#iten1 {
 	border-radius: 10px;
 	margin-top: 20px;
 	width: 650px;
@@ -24,5 +15,35 @@ body{
 	margin: 6px;
 	line-height: 1.1;
 }
-#imagen{
-	/*width: 240px;*/
+#cerrar {
+	background: url('iconos.jpg') no-repeat; 
+	background-position:center bottom;
+	width: 315px;
+	margin-top: 5px;
+
+}
+
+#abrir {
+	background: url('iconos.jpg') no-repeat; 
+	background-position:center top;
+	width: 315px;
+	margin-top: 5px;
+
+}
+
+#cerrar :hover{
+	background: url('iconos-hover.jpg') no-repeat; 
+	background-position:center bottom;
+	width: 315px;
+	margin-top: 5px;
+	text-decoration:overline;
+}
+
+#abrir :hover{
+	background: url('iconos-hover.jpg') no-repeat; 
+	background-position:center top;
+	width: 315px;
+	margin-top: 5px;
+	text-decoration:overline;
+	color: black;
+}
