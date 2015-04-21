@@ -1,0 +1,71 @@
+<!doctype html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>Beneficios de</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <script>
+
+    function mostrar(){
+      document.getElementById('iten1-resumen').style.display = 'none';
+      document.getElementById('cerrar').style.display = 'none';
+      document.getElementById('abrir').style.display = 'none';
+
+      document.getElementById('iten1-resumen').style.display = 'block';
+      document.getElementById('cerrar').style.display = 'block';
+      document.getElementById('abrir').style.display = 'none';
+     }
+
+    function ocultar(){
+      document.getElementById('iten1-resumen').style.display = 'none';
+      document.getElementById('cerrar').style.display = 'none';
+      document.getElementById('abrir').style.display = 'none';
+
+      document.getElementById('iten1-resumen').style.display = 'none';
+      document.getElementById('cerrar').style.display = 'none';
+      document.getElementById('abrir').style.display = ' block';
+     }
+
+
+  </script>
+</head>
+<body>
+ 
+<div id="content">
+    <div id="cabecera">
+    </div> <!--cabecera-->  
+    <div id="cuerpo">  
+        <div id="iten1" >
+          <div class="cabecera-formato-items">
+            <div id="abrir" class="boton" onclick="mostrar()">
+              abrir
+            </div>
+            <div id="cerrar" class="boton" onclick="ocultar()" style="display:none;">
+            cerrar
+            </div> 
+          </div><!--cabecera-formato-items-->    
+          <div id="iten1-resumen" class="resumen-formato-items" style="display:none">
+            <div id="imagen" style="float: right;">
+                <div style=" width:200px; height:200px; margin:20px 15px;">
+                   <img src="https://smipet.sharepoint.com/sites/intranet_smi/Biblioteca%20de%20Imgenes%20de%20Beneficios%20de%20Colaborador/Premios%20Educativos.png">
+                </div>
+            </div><!--imagen-->
+            <div id="texto" style="float: left;margin-left:10px;">
+              <p>Reconocemos y premiamos el Talento de tus Hijos.Ofrecemos vales para compra de útiles escolares a los hijos de los colaboradores que han obtenido los primeros puestos entre todas las aulas de su nivel, grado o año, en los niveles primario , secundario y superior.</p>
+              <p style="font-weight:bolder;font-size:18px">Requisitos</p>
+              <ul>
+                <li>Antiguedad minima de 6 meses</li>
+                <li>Presentar los documentos solicitados a bienestar social, debidamente ordenadas y en fechas solicitadas</li>
+                <li>Esperar la revisión y aprobación</li> 
+              </ul>
+            </div><!--texto-->
+            <div style="clear:both;"></div>
+          </div><!--resumen-formato-items-->
+        </div><!--iten1-->  
+ 
+    </div><!--Cuerpo--> 
+</div><!--content-->
+ 
+ 
+</body>
+</html>
